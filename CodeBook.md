@@ -1,4 +1,4 @@
-The `data cleaning Script.R` script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
+The `run_analysis.R` script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
 ### 1. Download the dataset
   - Dataset downloaded and extracted under the folder called UCI HAR Dataset
  
@@ -7,7 +7,7 @@ The `data cleaning Script.R` script performs the data preparation and then follo
 ### 3. Merges the training and the test sets to create one data set
 
 ### 4. Extracts only the measurements on the mean and standard deviation for each measurement
-  - `tidy_data` is created by subsetting Merged_Data, selecting only columns: `subject`, '`code` and the measurements on the mean and standard deviation (`std`) for each measurement
+  - `tidy_data` is created by subsetting all_data, selecting only columns: `subject`, `code` and the measurements on the mean and standard deviation (`std`) for each measurement
 ### 5. Uses descriptive activity names to name the activities in the data set
   - Entire numbers in code column of the `tidy_data` replaced with corresponding activity taken from second column of the `activities` variable
 
